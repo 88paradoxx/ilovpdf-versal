@@ -164,7 +164,9 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-MBFSPER0RX');
+    gtag('config', 'G-MBFSPER0RX', {
+      cookie_flags: 'secure;samesite=none'
+    });
   </script>
 
 
@@ -629,7 +631,7 @@
   }
 }
 </script>
-<script src="/js/seo-guard.js" defer></script>
+  <script src="/js/seo-guard.js" defer></script>
 </head>
 
 <body
@@ -667,6 +669,3 @@
 </body>
 
 </html>
-
-
-
